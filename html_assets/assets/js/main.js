@@ -4,6 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 (function($) {
 
 	skel.breakpoints({
@@ -15,6 +16,29 @@
 	});
 
 	$(function() {
+
+		// Animations for finding
+		$(".load").delay(1800).fadeOut();
+		$(".content").hide();
+		$(".content").delay(1800).fadeIn();
+
+		$(".found").hide()
+		$(".lookingfor").delay(1800).fadeOut();
+		$(".found").delay(1800).fadeIn();
+
+		//Clicking animation for request
+		$(".notif").hide()
+		$(".request").click(function() {
+  			$(".notif").fadeIn();
+		})
+
+		//animation for confirm
+		$(".Confirm").hide()
+		$(".Obama").click(function() {
+  			$(".Confirm").fadeIn();
+		})
+
+		
 
 		var	$window = $(window),
 			$body = $('body');

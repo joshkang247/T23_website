@@ -48,6 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
 /*custom css*/
 	#logo {
 		text-align:center;
@@ -2750,8 +2751,8 @@
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+/*			.tiles article.style1 > .image:before {
+				/*background-color: #f2849e;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2772,7 +2773,7 @@
 
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
-			}
+			}*/
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
